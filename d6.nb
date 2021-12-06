@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    165768,       4716]
-NotebookOptionsPosition[    164577,       4680]
-NotebookOutlinePosition[    164932,       4696]
-CellTagsIndexPosition[    164889,       4693]
+NotebookDataLength[    142395,       3978]
+NotebookOptionsPosition[    141227,       3950]
+NotebookOutlinePosition[    141619,       3966]
+CellTagsIndexPosition[    141576,       3963]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -37,7 +37,9 @@ Cell[BoxData[
        RowBox[{
         RowBox[{"MatrixQ", "[", "#", "]"}], ",", " ", 
         RowBox[{"MatrixForm", "[", "#", "]"}], ",", " ", "#"}], "]"}], " ", 
-      "&"}]}], ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      "&"}]}], ";"}], "\[IndentingNewLine]", 
+   StyleBox["\[IndentingNewLine]",
+    FontSize->12], 
    RowBox[{"(*", 
     RowBox[{
      RowBox[{
@@ -56,9 +58,7 @@ Cell[BoxData[
           RowBox[{
            RowBox[{"journals", ".", "jps", ".", "jp"}], "/", "doi"}], "/", 
           "pdf"}], "/", "10.1143"}], "/", "JPSJ"}], ".9", ".753"}]}]}], " ", 
-    "*)"}], "\[IndentingNewLine]", 
-   StyleBox["\[IndentingNewLine]",
-    FontSize->12], 
+    "*)"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"Clear", "[", 
     RowBox[{"c", ",", " ", "b", ",", " ", "dq"}], "]"}], 
    "\[IndentingNewLine]", 
@@ -1291,7 +1291,7 @@ Cell[BoxData[
         "[", "1", "]"}]}], "/.", " ", 
       RowBox[{"c", " ", "->", " ", "j"}]}]}], ";", 
     RowBox[{
-     RowBox[{"yd41t11", "[", "j_", "]"}], ":=", 
+     RowBox[{"yd41t21", "[", "j_", "]"}], ":=", 
      RowBox[{
       RowBox[{
        RowBox[{
@@ -1306,7 +1306,7 @@ Cell[BoxData[
         "[", "1", "]"}]}], "/.", " ", 
       RowBox[{"c", " ", "->", " ", "j"}]}]}], ";", 
     RowBox[{
-     RowBox[{"yd41t12", "[", "j_", "]"}], ":=", 
+     RowBox[{"yd41t22", "[", "j_", "]"}], ":=", 
      RowBox[{
       RowBox[{
        RowBox[{
@@ -1321,7 +1321,7 @@ Cell[BoxData[
         "[", "1", "]"}]}], "/.", " ", 
       RowBox[{"c", " ", "->", " ", "j"}]}]}], ";", 
     RowBox[{
-     RowBox[{"yd41t13", "[", "j_", "]"}], ":=", 
+     RowBox[{"yd41t23", "[", "j_", "]"}], ":=", 
      RowBox[{
       RowBox[{
        RowBox[{
@@ -1336,7 +1336,7 @@ Cell[BoxData[
         "[", "1", "]"}]}], "/.", " ", 
       RowBox[{"c", " ", "->", " ", "j"}]}]}], ";", 
     RowBox[{
-     RowBox[{"yd41t14", "[", "j_", "]"}], ":=", 
+     RowBox[{"yd41t24", "[", "j_", "]"}], ":=", 
      RowBox[{
       RowBox[{
        RowBox[{
@@ -1351,7 +1351,7 @@ Cell[BoxData[
         "[", "1", "]"}]}], "/.", " ", 
       RowBox[{"c", " ", "->", " ", "j"}]}]}], ";", 
     RowBox[{
-     RowBox[{"yd41t15", "[", "j_", "]"}], ":=", 
+     RowBox[{"yd41t25", "[", "j_", "]"}], ":=", 
      RowBox[{
       RowBox[{
        RowBox[{
@@ -1366,7 +1366,7 @@ Cell[BoxData[
         "[", "1", "]"}]}], "/.", " ", 
       RowBox[{"c", " ", "->", " ", "j"}]}]}], ";", 
     RowBox[{
-     RowBox[{"yd41t16", "[", "j_", "]"}], ":=", 
+     RowBox[{"yd41t26", "[", "j_", "]"}], ":=", 
      RowBox[{
       RowBox[{
        RowBox[{
@@ -1381,7 +1381,7 @@ Cell[BoxData[
         "[", "1", "]"}]}], "/.", " ", 
       RowBox[{"c", " ", "->", " ", "j"}]}]}], ";", 
     RowBox[{
-     RowBox[{"yd41t17", "[", "j_", "]"}], ":=", 
+     RowBox[{"yd41t27", "[", "j_", "]"}], ":=", 
      RowBox[{
       RowBox[{
        RowBox[{
@@ -1822,15 +1822,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "5t21"}]], "[", "j_", "]"}], ":=", 
@@ -1842,19 +1834,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "5", "]"}], "[", "t2", "]"}], 
         "[", "1", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -1863,15 +1847,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "3t11"}]], "[", "j_", "]"}], ":=", 
@@ -1883,19 +1859,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "t1", "]"}], 
         "[", "1", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -1904,15 +1872,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "3t12"}]], "[", "j_", "]"}], ":=", 
@@ -1924,19 +1884,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "t1", "]"}], 
         "[", "2", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -1945,15 +1897,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "3t13"}]], "[", "j_", "]"}], ":=", 
@@ -1965,19 +1909,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "t1", "]"}], 
         "[", "3", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -1986,15 +1922,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "3t14"}]], "[", "j_", "]"}], ":=", 
@@ -2006,19 +1934,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "t1", "]"}], 
         "[", "4", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2027,15 +1947,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "3t15"}]], "[", "j_", "]"}], ":=", 
@@ -2047,19 +1959,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "t1", "]"}], 
         "[", "5", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2068,15 +1972,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "3t16"}]], "[", "j_", "]"}], ":=", 
@@ -2088,19 +1984,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "t1", "]"}], 
         "[", "6", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2109,15 +1997,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "3t17"}]], "[", "j_", "]"}], ":=", 
@@ -2129,19 +2009,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "t1", "]"}], 
         "[", "7", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2150,18 +2022,10 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
-         FontWeight->"SemiBold"], "1t11"}]], "[", "j_", "]"}], ":=", 
+         FontWeight->"SemiBold"], "1t21"}]], "[", "j_", "]"}], ":=", 
      RowBox[{
       RowBox[{
        RowBox[{
@@ -2170,19 +2034,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "t2", "]"}], 
         "[", "1", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2191,18 +2047,10 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
-         FontWeight->"SemiBold"], "1t12"}]], "[", "j_", "]"}], ":=", 
+         FontWeight->"SemiBold"], "1t22"}]], "[", "j_", "]"}], ":=", 
      RowBox[{
       RowBox[{
        RowBox[{
@@ -2211,19 +2059,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "t2", "]"}], 
         "[", "2", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2232,18 +2072,10 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
-         FontWeight->"SemiBold"], "1t13"}]], "[", "j_", "]"}], ":=", 
+         FontWeight->"SemiBold"], "1t23"}]], "[", "j_", "]"}], ":=", 
      RowBox[{
       RowBox[{
        RowBox[{
@@ -2252,19 +2084,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "t2", "]"}], 
         "[", "3", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2273,18 +2097,10 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
-         FontWeight->"SemiBold"], "1t14"}]], "[", "j_", "]"}], ":=", 
+         FontWeight->"SemiBold"], "1t24"}]], "[", "j_", "]"}], ":=", 
      RowBox[{
       RowBox[{
        RowBox[{
@@ -2293,19 +2109,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "t2", "]"}], 
         "[", "4", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2314,18 +2122,10 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
-         FontWeight->"SemiBold"], "1t15"}]], "[", "j_", "]"}], ":=", 
+         FontWeight->"SemiBold"], "1t25"}]], "[", "j_", "]"}], ":=", 
      RowBox[{
       RowBox[{
        RowBox[{
@@ -2334,19 +2134,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "t2", "]"}], 
         "[", "5", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2355,18 +2147,10 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
-         FontWeight->"SemiBold"], "1t16"}]], "[", "j_", "]"}], ":=", 
+         FontWeight->"SemiBold"], "1t26"}]], "[", "j_", "]"}], ":=", 
      RowBox[{
       RowBox[{
        RowBox[{
@@ -2375,19 +2159,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "t2", "]"}], 
         "[", "6", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2396,18 +2172,10 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
-         FontWeight->"SemiBold"], "1t17"}]], "[", "j_", "]"}], ":=", 
+         FontWeight->"SemiBold"], "1t27"}]], "[", "j_", "]"}], ":=", 
      RowBox[{
       RowBox[{
        RowBox[{
@@ -2416,19 +2184,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "t2", "]"}], 
         "[", "7", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2437,15 +2197,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "1a11"}]], "[", "j_", "]"}], ":=", 
@@ -2457,19 +2209,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
         "[", "1", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2478,15 +2222,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "1a12"}]], "[", "j_", "]"}], ":=", 
@@ -2498,19 +2234,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
         "[", "2", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2519,15 +2247,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "1a13"}]], "[", "j_", "]"}], ":=", 
@@ -2539,19 +2259,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
         "[", "3", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2560,15 +2272,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "1a14"}]], "[", "j_", "]"}], ":=", 
@@ -2580,19 +2284,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
         "[", "4", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2601,15 +2297,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "1a15"}]], "[", "j_", "]"}], ":=", 
@@ -2621,19 +2309,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
         "[", "5", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2642,15 +2322,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "1e1"}]], "[", "j_", "]"}], ":=", 
@@ -2662,19 +2334,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "e", "]"}], "[",
          "1", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2683,15 +2347,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "1e2"}]], "[", "j_", "]"}], ":=", 
@@ -2703,19 +2359,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "e", "]"}], "[",
          "2", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2724,15 +2372,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "1e3"}]], "[", "j_", "]"}], ":=", 
@@ -2744,19 +2384,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "e", "]"}], "[",
          "3", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2765,15 +2397,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "1e4"}]], "[", "j_", "]"}], ":=", 
@@ -2785,19 +2409,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "e", "]"}], "[",
          "4", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2806,15 +2422,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "1e5"}]], "[", "j_", "]"}], ":=", 
@@ -2826,19 +2434,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "e", "]"}], "[",
          "5", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2847,15 +2447,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "3t21"}]], "[", "j_", "]"}], ":=", 
@@ -2867,19 +2459,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "t2", "]"}], 
         "[", "1", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2888,15 +2472,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "3t22"}]], "[", "j_", "]"}], ":=", 
@@ -2908,19 +2484,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "t2", "]"}], 
         "[", "2", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2929,15 +2497,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "3t23"}]], "[", "j_", "]"}], ":=", 
@@ -2949,19 +2509,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "t2", "]"}], 
         "[", "3", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -2970,15 +2522,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "3t24"}]], "[", "j_", "]"}], ":=", 
@@ -2990,19 +2534,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "t2", "]"}], 
         "[", "4", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -3011,15 +2547,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "3t25"}]], "[", "j_", "]"}], ":=", 
@@ -3031,19 +2559,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "t2", "]"}], 
         "[", "5", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -3052,15 +2572,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "1t11"}]], "[", "j_", "]"}], ":=", 
@@ -3072,19 +2584,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "t1", "]"}], 
         "[", "1", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -3093,15 +2597,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "1t12"}]], "[", "j_", "]"}], ":=", 
@@ -3113,19 +2609,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "t1", "]"}], 
         "[", "2", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -3134,15 +2622,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "1t13"}]], "[", "j_", "]"}], ":=", 
@@ -3154,19 +2634,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "t1", "]"}], 
         "[", "3", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -3175,15 +2647,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "1t14"}]], "[", "j_", "]"}], ":=", 
@@ -3195,19 +2659,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "t1", "]"}], 
         "[", "4", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -3216,15 +2672,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "3e1"}]], "[", "j_", "]"}], ":=", 
@@ -3236,19 +2684,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "e", "]"}], "[",
          "1", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -3257,15 +2697,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "3e2"}]], "[", "j_", "]"}], ":=", 
@@ -3277,19 +2709,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "e", "]"}], "[",
          "2", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -3298,15 +2722,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "33e3"}]], "[", "j_", "]"}], ":=", 
@@ -3318,19 +2734,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "e", "]"}], "[",
          "3", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -3339,15 +2747,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "3a21"}]], "[", "j_", "]"}], ":=", 
@@ -3359,19 +2759,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "a2", "]"}], 
         "[", "1", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -3380,15 +2772,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "3a22"}]], "[", "j_", "]"}], ":=", 
@@ -3400,19 +2784,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "a2", "]"}], 
         "[", "2", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -3421,15 +2797,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "1a21"}]], "[", "j_", "]"}], ":=", 
@@ -3441,19 +2809,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a2", "]"}], 
         "[", "1", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -3462,15 +2822,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "a122"}]], "[", "j_", "]"}], ":=", 
@@ -3482,19 +2834,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a2", "]"}], 
         "[", "2", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -3503,15 +2847,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "3a11"}]], "[", "j_", "]"}], ":=", 
@@ -3523,19 +2859,11 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "3", "]"}], "[", "a1", "]"}], 
         "[", "1", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
@@ -3544,15 +2872,7 @@ Cell[BoxData[
      RowBox[{
       StyleBox[
        RowBox[{
-        StyleBox[
-         StyleBox[
-          StyleBox["zd4",
-           FontFamily->"Source Code Pro",
-           FontSize->9,
-           FontWeight->"SemiBold"],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
+        StyleBox["zd4",
          FontFamily->"Source Code Pro",
          FontSize->9,
          FontWeight->"SemiBold"], "5e1"}]], "[", "j_", "]"}], ":=", 
@@ -3564,38 +2884,30 @@ Cell[BoxData[
           RowBox[{"d", "[", "4", "]"}], "[", "5", "]"}], "[", "e", "]"}], "[",
          "1", "]"}], "-", 
        StyleBox[
-        StyleBox[
-         StyleBox[
+        RowBox[{
+         RowBox[{
           RowBox[{
-           RowBox[{
-            RowBox[{
-             RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
-           "[", "1", "]"}],
-          FontFamily->"Source Code Pro",
-          FontSize->9,
-          FontWeight->"SemiBold"],
-         FontFamily->"Source Code Pro",
-         FontSize->9,
-         FontWeight->"SemiBold"],
+           RowBox[{"d", "[", "4", "]"}], "[", "1", "]"}], "[", "a1", "]"}], 
+         "[", "1", "]"}],
         FontFamily->"Source Code Pro",
         FontSize->9,
         FontWeight->"SemiBold"]}], "/.", " ", 
       RowBox[{"c", " ", "->", " ", "j"}]}]}], ";"}]}]}]], "Input",
  InitializationCell->True,
  CellChangeTimes->CompressedData["
-1:eJwl0GtIU2EAxvG5ZROSJY5GyDLDgRgag7M2b5AGK1hmMQaRUWh2c6ysNlbh
-jpVbkJj1oSKDJlKWGdKWzlJbxooumtNsltjybFlKuEUrJcMl633ePjz8Pj//
-NXurtPv5PB5vHRm84g40Di6EigYSotSVEWXzEFE5W3cTPmzTBv5bSTWsbmod
-I/6J3WiD7afzHBxRwtqcUHa2vheer2Efw+CZES+Uxx1/C3POKT5CX616Ag4y
-+gg0d4xSp8NOJkC89EOvgMFqac880b2J80CXOeU19GVG++FBsZuDi2vjA1Cn
-N87Avqm0EBSL2G9RYqGaCUGuYXcE1mrvzkKN/ek8/BQbpvb5glF4IsBf9pco
-HH4vgketSaugxR/3Cz4oq+Av4qf4agossUrSoT1jnwoWeK258NiO7N+CaKjI
-lmmhDpW6hAnEbt0jauPyI0tTiVkmlrqnePPndOKF+ifULdb+awxRzTt1HToW
-xuxwa7ykHc5JG5xwZ0sTB90bLn+FAqZAriBaEnUq+Cb5MPX7vaB8PXFgexoD
-+XmH8qG/uorakuG1w5qNE9TJba2j8GT51Ado3lVRqCSKOiup3aliFhpudVH9
-sjqjiniAazbBuXe2FzDp2UWq7HnHOAyXvqROl8x8gVkjMer4ilf3c4jCzjIn
-VHpYTS6R0xiK4c8e320jsVcYvgMn8wUOuCQxQhW6pMkmdPWUi+E/YGe64Q==
-
+1:eJwl0GtI02EAxeG5pROSJY5WyDLDgRhGg63NG+SCFSyzGEJkFJrdHCutjVW4
+abkFiVlRSQZNpCy1pC1deWkZK7poTrNZYsv/lqWEW7RSMlyy3vP24fB8Pr81
++8rUB9gsFms9Gbzq9DUMLgQUA7Fh6sqQrGmIKJutuQkftal9/y2lalc3towR
+/0RutMH2qiwbQxSYLHYoOlPbC89Vmh5D/+kRNxRHHX8LM85KP0JPtXICDko0
+IWjoGKVOB+0SH/HiD40U+iuEPfNE52bGBR2GxNfQkxbuh4f4TgYuro32wQKN
+bgb2TSUHIJ9n+hYm5iolAcjU7QnBanXrLFRZn87DT5Fhap/HH4YnfOylf4nc
+4fc8WG6OXwWN3qhf8EFRCXsRP/n1iTDfLEiB1tT9cpjjNmfCYzvX/eaEAwpL
+mpE6VOjgxhK7C7qoDcuOxiQR0/Um6t68LZ9TiOdrn1C3mvuvSYhK1qnr0LYw
+ZoXbogXtcE5YZ4e7mhsZ6Nx45SvkSHLEUqIxrkAO3yQcoX6/6xdvIA7sSJZA
+dtbhbOitKKM2p7qtsHLTBHVye8soPFk89QEadpfkyoi8zlJqdxLfBLW3HlK9
+ohqdnHiQadLDuXeWFzD+2QWq6HnHOAwWvqRO5898gekjEer48lf3M4jcziI7
+lLlMqkwio9LmwZ89nts6Yi83eAdOZnNscElciMp1CBP06Ooq5kNXVcylFfeC
+ivL6rsvwH1RjwuQ=
   "],
  FontFamily->"Source Code Pro",
  FontSize->9,
@@ -3692,13 +3004,13 @@ Cell[BoxData[
           RowBox[{"yd43t15", "[", "j", "]"}], ",", 
           RowBox[{"yd43t16", "[", "j", "]"}], ",", 
           RowBox[{"yd43t17", "[", "j", "]"}], ",", 
-          RowBox[{"yd41t11", "[", "j", "]"}], ",", 
-          RowBox[{"yd41t12", "[", "j", "]"}], ",", 
-          RowBox[{"yd41t13", "[", "j", "]"}], ",", 
-          RowBox[{"yd41t14", "[", "j", "]"}], ",", 
-          RowBox[{"yd41t15", "[", "j", "]"}], ",", 
-          RowBox[{"yd41t16", "[", "j", "]"}], ",", 
-          RowBox[{"yd41t17", "[", "j", "]"}], ",", 
+          RowBox[{"yd41t21", "[", "j", "]"}], ",", 
+          RowBox[{"yd41t22", "[", "j", "]"}], ",", 
+          RowBox[{"yd41t23", "[", "j", "]"}], ",", 
+          RowBox[{"yd41t24", "[", "j", "]"}], ",", 
+          RowBox[{"yd41t25", "[", "j", "]"}], ",", 
+          RowBox[{"yd41t26", "[", "j", "]"}], ",", 
+          RowBox[{"yd41t27", "[", "j", "]"}], ",", 
           RowBox[{"yd41a11", "[", "j", "]"}], ",", 
           RowBox[{"yd41a12", "[", "j", "]"}], ",", 
           RowBox[{"yd41a13", "[", "j", "]"}], ",", 
@@ -3736,7 +3048,8 @@ Cell[BoxData[
         RowBox[{"MaxRecursion", "\[Rule]", "2"}], ",", 
         RowBox[{"ScalingFunctions", "\[Rule]", 
          RowBox[{"{", 
-          RowBox[{"\"\<Reverse\>\"", ",", "Identity"}], "}"}]}]}], "]"}], ",", 
+          RowBox[{"\"\<Reverse\>\"", ",", "Identity"}], "}"}]}], ",", 
+        RowBox[{"PlotStyle", "\[Rule]", "Black"}]}], "]"}], ",", 
       RowBox[{"Plot", "[", 
        RowBox[{
         RowBox[{"{", 
@@ -3749,13 +3062,13 @@ Cell[BoxData[
           RowBox[{"zd43t15", "[", "j", "]"}], ",", 
           RowBox[{"zd43t16", "[", "j", "]"}], ",", 
           RowBox[{"zd43t17", "[", "j", "]"}], ",", 
-          RowBox[{"zd41t11", "[", "j", "]"}], ",", 
-          RowBox[{"zd41t12", "[", "j", "]"}], ",", 
-          RowBox[{"zd41t13", "[", "j", "]"}], ",", 
-          RowBox[{"zd41t14", "[", "j", "]"}], ",", 
-          RowBox[{"zd41t15", "[", "j", "]"}], ",", 
-          RowBox[{"zd41t16", "[", "j", "]"}], ",", 
-          RowBox[{"zd41t17", "[", "j", "]"}], ",", 
+          RowBox[{"zd41t21", "[", "j", "]"}], ",", 
+          RowBox[{"zd41t22", "[", "j", "]"}], ",", 
+          RowBox[{"zd41t23", "[", "j", "]"}], ",", 
+          RowBox[{"zd41t24", "[", "j", "]"}], ",", 
+          RowBox[{"zd41t25", "[", "j", "]"}], ",", 
+          RowBox[{"zd41t26", "[", "j", "]"}], ",", 
+          RowBox[{"zd41t27", "[", "j", "]"}], ",", 
           RowBox[{"zd41a11", "[", "j", "]"}], ",", 
           RowBox[{"zd41a12", "[", "j", "]"}], ",", 
           RowBox[{"zd41a13", "[", "j", "]"}], ",", 
@@ -3808,91 +3121,71 @@ Cell[BoxData[
                 RowBox[{"Subscript", "[", 
                  RowBox[{"\"\<T\>\"", ",", " ", "\"\<2g\>\""}], "]"}], ",", 
                 "Italic"}], "]"}], ",", " ", "\"\<(D)\>\""}], "}"}], "]"}], 
-           ",", "\"\<\!\(\*SuperscriptBox[\(\), \
-\(3\)]\)\!\(\*SubscriptBox[\(T\), \(1  g\)]\)(H)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \
-\(1  g\)]\)(\!\(\*SubscriptBox[\(F\), \(-\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \
-\(1  g\)]\)(\!\(\*SubscriptBox[\(P\), \(-\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \
-\(1  g\)]\)(G)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \
-\(1  g\)]\)(D)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \
-\(1  g\)]\)(\!\(\*SubscriptBox[\(F\), \(+\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \
-\(1  g\)]\)(\!\(\*SubscriptBox[\(P\), \(+\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \
-\(2  g\)]\)(I)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \
-\(2  g\)]\)(I)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \
-\(2  g\)]\)(\!\(\*SubscriptBox[\(G\), \(-\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \
-\(2  g\)]\)(\!\(\*SubscriptBox[\(D\), \(-\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \
-\(2  g\)]\)(F)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \
-\(2  g\)]\)(\!\(\*SubscriptBox[\(G\), \(+\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \
-\(2  g\)]\)(\!\(\*SubscriptBox[\(D\), \(+\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(A\), \
-\(1  g\)]\)(I)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(A\), \
-\(1  g\)]\)(\!\(\*SubscriptBox[\(G\), \(-\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(A\), \
-\(1  g\)]\)(\!\(\*SubscriptBox[\(S\), \(-\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(A\), \
-\(1  g\)]\)(\!\(\*SubscriptBox[\(G\), \(+\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(A\), \
-\(1  g\)]\)(\!\(\*SubscriptBox[\(S\), \(+\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(\!\(\*SubscriptBox[\(G\), \(-\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(I)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(\!\(\*SubscriptBox[\(D\), \(-\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(\!\(\*SubscriptBox[\(G\), \(+\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(\!\(\*SubscriptBox[\(D\), \(+\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \
-\(2  g\)]\)(H)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \
-\(2  g\)]\)(\!\(\*SubscriptBox[\(F\), \(-\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \
-\(2  g\)]\)(G)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \
-\(2  g\)]\)(D)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \
-\(2  g\)]\)(\!\(\*SubscriptBox[\(F\), \(+\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \
-\(1  g\)]\)(I)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \
-\(1  g\)]\)(\!\(\*SubscriptBox[\(G\), \(-\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \
-\(1  g\)]\)(F)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \
-\(1  g\)]\)(\!\(\*SubscriptBox[\(G\), \(+\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(H)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(G)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(D)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(A\), \
-\(2  g\)]\)(\!\(\*SubscriptBox[\(F\), \(-\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(A\), \
-\(2  g\)]\)(\!\(\*SubscriptBox[\(F\), \(+\)]\))\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(A\), \
-\(2  g\)]\)(I)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(A\), \
-\(2  g\)]\)(F)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(A\), \
-\(1  g\)]\)(G)\>\"", ",", 
-           "\"\<\!\(\*SuperscriptBox[\(\), \(5\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(D)\>\""}], "}"}]}], ",", " ", 
-        RowBox[{"ImageSize", "\[Rule]", "Full"}]}], " ", "]"}], ",", " ", 
+           ",", "\"\<\!\(\*SubscriptBox[\(T\), \(1  g\)]\)(H)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(1  \
+g\)]\)(\!\(\*SubscriptBox[\(F\), \(-\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(1  \
+g\)]\)(\!\(\*SubscriptBox[\(P\), \(-\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(1  g\)]\)(G)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(1  g\)]\)(D)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(1  \
+g\)]\)(\!\(\*SubscriptBox[\(F\), \(+\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(1  \
+g\)]\)(\!\(\*SubscriptBox[\(P\), \(+\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(I)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(I)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(2  \
+g\)]\)(\!\(\*SubscriptBox[\(G\), \(-\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(2  \
+g\)]\)(\!\(\*SubscriptBox[\(D\), \(-\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(F)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(2  \
+g\)]\)(\!\(\*SubscriptBox[\(G\), \(+\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(2  \
+g\)]\)(\!\(\*SubscriptBox[\(D\), \(+\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(A\), \(1  g\)]\)(I)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(A\), \(1  \
+g\)]\)(\!\(\*SubscriptBox[\(G\), \(-\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(A\), \(1  \
+g\)]\)(\!\(\*SubscriptBox[\(S\), \(-\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(A\), \(1  \
+g\)]\)(\!\(\*SubscriptBox[\(G\), \(+\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(A\), \(1  \
+g\)]\)(\!\(\*SubscriptBox[\(S\), \(+\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(E\), \(g\)]\)(\!\(\*SubscriptBox[\(G\), \
+\(-\)]\))\>\"", ",", "\"\<\!\(\*SubscriptBox[\(E\), \(g\)]\)(I)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(E\), \(g\)]\)(\!\(\*SubscriptBox[\(D\), \
+\(-\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(E\), \(g\)]\)(\!\(\*SubscriptBox[\(G\), \
+\(+\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(E\), \(g\)]\)(\!\(\*SubscriptBox[\(D\), \
+\(+\)]\))\>\"", ",", "\"\<\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(H)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(2  \
+g\)]\)(\!\(\*SubscriptBox[\(F\), \(-\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(G)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(D)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(2  \
+g\)]\)(\!\(\*SubscriptBox[\(F\), \(+\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(1  g\)]\)(I)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(1  \
+g\)]\)(\!\(\*SubscriptBox[\(G\), \(-\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(1  g\)]\)(F)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(T\), \(1  \
+g\)]\)(\!\(\*SubscriptBox[\(G\), \(+\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(E\), \(g\)]\)(H)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(E\), \(g\)]\)(G)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(E\), \(g\)]\)(D)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(A\), \(2  \
+g\)]\)(\!\(\*SubscriptBox[\(F\), \(-\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(A\), \(2  \
+g\)]\)(\!\(\*SubscriptBox[\(F\), \(+\)]\))\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(A\), \(2  g\)]\)(I)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(A\), \(2  g\)]\)(F)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(A\), \(1  g\)]\)(G)\>\"", ",", 
+           "\"\<\!\(\*SubscriptBox[\(E\), \(g\)]\)(D)\>\""}], "}"}]}], ",", 
+        " ", 
+        RowBox[{"ImageSize", "\[Rule]", "Full"}], ",", 
+        RowBox[{"PlotStyle", "\[Rule]", "Black"}]}], " ", "]"}], ",", " ", 
       RowBox[{"PlotLabel", "\[Rule]", " ", 
        RowBox[{"Style", "[", 
         RowBox[{
@@ -3967,7 +3260,10 @@ Cell[BoxData[
  CellChangeTimes->{{3.755589546453157*^9, 3.755589559591114*^9}, {
    3.755589625204145*^9, 3.755589646652779*^9}, 3.7557118864814463`*^9, {
    3.7557119514734573`*^9, 3.755711958595783*^9}, {3.755712013022387*^9, 
-   3.7557120364624233`*^9}, {3.755712369905779*^9, 3.7557125156817913`*^9}},
+   3.7557120364624233`*^9}, {3.755712369905779*^9, 3.7557125156817913`*^9}, {
+   3.813060033447632*^9, 3.8130600393568497`*^9}, {3.813060079994136*^9, 
+   3.8130600830045767`*^9}, {3.813060115803022*^9, 3.813060159117511*^9}, {
+   3.847797921744945*^9, 3.847797942094474*^9}},
  FontFamily->"Source Code Pro",
  FontSize->9,
  FontWeight->
@@ -3981,12 +3277,12 @@ Cell[BoxData[
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`j$$], 4.6, "C/B"}, 0, 10}}, Typeset`size$$ = {
-    828., {245., 248.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = False, $CellContext`j$22553$$ = 0}, 
+    828., {247., 249.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = False, $CellContext`j$26872$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, "Variables" :> {$CellContext`j$$ = 4.6}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`j$$, $CellContext`j$22553$$, 0]}, 
+        Hold[$CellContext`j$$, $CellContext`j$26872$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -4037,7 +3333,8 @@ Cell[BoxData[
           $CellContext`yd43a11[$CellContext`j$$], 
           $CellContext`yd45e1[$CellContext`j$$]}, {$CellContext`dq, 
           0, -$CellContext`r[$CellContext`j$$]}, Mesh -> None, PlotPoints -> 
-         10, MaxRecursion -> 2, ScalingFunctions -> {"Reverse", Identity}], 
+         10, MaxRecursion -> 2, ScalingFunctions -> {"Reverse", Identity}, 
+         PlotStyle -> Black], 
         Plot[{
           $CellContext`zd45t21[$CellContext`j$$], 
           $CellContext`zd43t11[$CellContext`j$$], 
@@ -4089,100 +3386,71 @@ Cell[BoxData[
              Superscript["", "5"], 
              Style[
               Subscript["T", "2g"], Italic], "(D)"}], 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \(1  \
-g\)]\)(H)", 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \(1  \
-g\)]\)(\!\(\*SubscriptBox[\(F\), \(-\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \(1  \
-g\)]\)(\!\(\*SubscriptBox[\(P\), \(-\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \(1  \
-g\)]\)(G)", 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \(1  \
-g\)]\)(D)", 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \(1  \
-g\)]\)(\!\(\*SubscriptBox[\(F\), \(+\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \(1  \
-g\)]\)(\!\(\*SubscriptBox[\(P\), \(+\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \(2  \
-g\)]\)(I)", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \(2  \
-g\)]\)(I)", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \(2  \
-g\)]\)(\!\(\*SubscriptBox[\(G\), \(-\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \(2  \
-g\)]\)(\!\(\*SubscriptBox[\(D\), \(-\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \(2  \
-g\)]\)(F)", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \(2  \
-g\)]\)(\!\(\*SubscriptBox[\(G\), \(+\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \(2  \
-g\)]\)(\!\(\*SubscriptBox[\(D\), \(+\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(A\), \(1  \
-g\)]\)(I)", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(A\), \(1  \
-g\)]\)(\!\(\*SubscriptBox[\(G\), \(-\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(A\), \(1  \
-g\)]\)(\!\(\*SubscriptBox[\(S\), \(-\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(A\), \(1  \
-g\)]\)(\!\(\*SubscriptBox[\(G\), \(+\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(A\), \(1  \
-g\)]\)(\!\(\*SubscriptBox[\(S\), \(+\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(\!\(\*SubscriptBox[\(G\), \(-\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(I)", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(\!\(\*SubscriptBox[\(D\), \(-\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(\!\(\*SubscriptBox[\(G\), \(+\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(\!\(\*SubscriptBox[\(D\), \(+\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \(2  \
-g\)]\)(H)", 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \(2  \
-g\)]\)(\!\(\*SubscriptBox[\(F\), \(-\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \(2  \
-g\)]\)(G)", 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \(2  \
-g\)]\)(D)", 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(T\), \(2  \
-g\)]\)(\!\(\*SubscriptBox[\(F\), \(+\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \(1  \
-g\)]\)(I)", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \(1  \
-g\)]\)(\!\(\*SubscriptBox[\(G\), \(-\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \(1  \
-g\)]\)(F)", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(T\), \(1  \
-g\)]\)(\!\(\*SubscriptBox[\(G\), \(+\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(H)", 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(G)", 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(D)", 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(A\), \(2  \
-g\)]\)(\!\(\*SubscriptBox[\(F\), \(-\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(A\), \(2  \
-g\)]\)(\!\(\*SubscriptBox[\(F\), \(+\)]\))", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(A\), \(2  \
-g\)]\)(I)", 
-           "\!\(\*SuperscriptBox[\(\), \(1\)]\)\!\(\*SubscriptBox[\(A\), \(2  \
-g\)]\)(F)", 
-           "\!\(\*SuperscriptBox[\(\), \(3\)]\)\!\(\*SubscriptBox[\(A\), \(1  \
-g\)]\)(G)", 
-           "\!\(\*SuperscriptBox[\(\), \(5\)]\)\!\(\*SubscriptBox[\(E\), \
-\(g\)]\)(D)"}, ImageSize -> Full], PlotLabel -> 
+           "\!\(\*SubscriptBox[\(T\), \(1  g\)]\)(H)", 
+           "\!\(\*SubscriptBox[\(T\), \(1  g\)]\)(\!\(\*SubscriptBox[\(F\), \
+\(-\)]\))", 
+           "\!\(\*SubscriptBox[\(T\), \(1  g\)]\)(\!\(\*SubscriptBox[\(P\), \
+\(-\)]\))", "\!\(\*SubscriptBox[\(T\), \(1  g\)]\)(G)", 
+           "\!\(\*SubscriptBox[\(T\), \(1  g\)]\)(D)", 
+           "\!\(\*SubscriptBox[\(T\), \(1  g\)]\)(\!\(\*SubscriptBox[\(F\), \
+\(+\)]\))", 
+           "\!\(\*SubscriptBox[\(T\), \(1  g\)]\)(\!\(\*SubscriptBox[\(P\), \
+\(+\)]\))", "\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(I)", 
+           "\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(I)", 
+           "\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(\!\(\*SubscriptBox[\(G\), \
+\(-\)]\))", 
+           "\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(\!\(\*SubscriptBox[\(D\), \
+\(-\)]\))", "\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(F)", 
+           "\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(\!\(\*SubscriptBox[\(G\), \
+\(+\)]\))", 
+           "\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(\!\(\*SubscriptBox[\(D\), \
+\(+\)]\))", "\!\(\*SubscriptBox[\(A\), \(1  g\)]\)(I)", 
+           "\!\(\*SubscriptBox[\(A\), \(1  g\)]\)(\!\(\*SubscriptBox[\(G\), \
+\(-\)]\))", 
+           "\!\(\*SubscriptBox[\(A\), \(1  g\)]\)(\!\(\*SubscriptBox[\(S\), \
+\(-\)]\))", 
+           "\!\(\*SubscriptBox[\(A\), \(1  g\)]\)(\!\(\*SubscriptBox[\(G\), \
+\(+\)]\))", 
+           "\!\(\*SubscriptBox[\(A\), \(1  g\)]\)(\!\(\*SubscriptBox[\(S\), \
+\(+\)]\))", 
+           "\!\(\*SubscriptBox[\(E\), \(g\)]\)(\!\(\*SubscriptBox[\(G\), \
+\(-\)]\))", "\!\(\*SubscriptBox[\(E\), \(g\)]\)(I)", 
+           "\!\(\*SubscriptBox[\(E\), \(g\)]\)(\!\(\*SubscriptBox[\(D\), \
+\(-\)]\))", 
+           "\!\(\*SubscriptBox[\(E\), \(g\)]\)(\!\(\*SubscriptBox[\(G\), \
+\(+\)]\))", 
+           "\!\(\*SubscriptBox[\(E\), \(g\)]\)(\!\(\*SubscriptBox[\(D\), \
+\(+\)]\))", "\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(H)", 
+           "\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(\!\(\*SubscriptBox[\(F\), \
+\(-\)]\))", "\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(G)", 
+           "\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(D)", 
+           "\!\(\*SubscriptBox[\(T\), \(2  g\)]\)(\!\(\*SubscriptBox[\(F\), \
+\(+\)]\))", "\!\(\*SubscriptBox[\(T\), \(1  g\)]\)(I)", 
+           "\!\(\*SubscriptBox[\(T\), \(1  g\)]\)(\!\(\*SubscriptBox[\(G\), \
+\(-\)]\))", "\!\(\*SubscriptBox[\(T\), \(1  g\)]\)(F)", 
+           "\!\(\*SubscriptBox[\(T\), \(1  g\)]\)(\!\(\*SubscriptBox[\(G\), \
+\(+\)]\))", "\!\(\*SubscriptBox[\(E\), \(g\)]\)(H)", 
+           "\!\(\*SubscriptBox[\(E\), \(g\)]\)(G)", 
+           "\!\(\*SubscriptBox[\(E\), \(g\)]\)(D)", 
+           "\!\(\*SubscriptBox[\(A\), \(2  g\)]\)(\!\(\*SubscriptBox[\(F\), \
+\(-\)]\))", 
+           "\!\(\*SubscriptBox[\(A\), \(2  g\)]\)(\!\(\*SubscriptBox[\(F\), \
+\(+\)]\))", "\!\(\*SubscriptBox[\(A\), \(2  g\)]\)(I)", 
+           "\!\(\*SubscriptBox[\(A\), \(2  g\)]\)(F)", 
+           "\!\(\*SubscriptBox[\(A\), \(1  g\)]\)(G)", 
+           "\!\(\*SubscriptBox[\(E\), \(g\)]\)(D)"}, ImageSize -> Full, 
+         PlotStyle -> Black], PlotLabel -> 
         Style["\!\(\*SuperscriptBox[\(d\), \(6\)]\)", Black, FontSize -> 20], 
         Axes -> True, Frame -> True, PlotRangeClipping -> False, 
-        ImagePadding -> {{All, 100}, {All, 0}}, PlotRange -> {{0, 5}, All}, 
-        PlotRangePadding -> None, ImageSize -> Full, FrameLabel -> {
+        ImagePadding -> {{All, 100}, {All, 0}}, 
+        PlotRange -> {{0, 5}, {0, 50}}, PlotRangePadding -> None, ImageSize -> 
+        Full, FrameLabel -> {
           Style["Dq/B", 16, Black, Bold], 
           Style["E/B", 16, Black, Bold]}], 
       "Specifications" :> {{{$CellContext`j$$, 4.6, "C/B"}, 0, 10, Appearance -> 
          "Labeled"}}, "Options" :> {ContinuousAction -> False}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{869., {286., 289.}},
+     ImageSizeCache->{869., {288., 291.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -4204,14 +3472,16 @@ $CellContext`z]] == 0, {$CellContext`dq, 1}], 1]]}; Typeset`initDone$$ = True),
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.755587718736301*^9, 3.755587830617885*^9, 
-  3.755589665833346*^9, 3.7557118990563517`*^9, 3.755711969468252*^9, 
-  3.755712038898765*^9, 3.755712526372348*^9, 3.7557126754657917`*^9, 
-  3.774886247957782*^9},
+ CellChangeTimes->{
+  3.755587718736301*^9, 3.755587830617885*^9, 3.755589665833346*^9, 
+   3.7557118990563517`*^9, 3.755711969468252*^9, 3.755712038898765*^9, 
+   3.755712526372348*^9, 3.7557126754657917`*^9, 3.774886247957782*^9, {
+   3.813059996614149*^9, 3.8130600499029093`*^9}, 3.813060087439458*^9, {
+   3.813060123206311*^9, 3.8130601474416018`*^9}},
  FontFamily->"Source Code Pro",
  FontSize->9,
  FontWeight->
-  "SemiBold",ExpressionUUID->"8040d2ee-eb44-4f92-a690-53e9e1f03a2f"]
+  "SemiBold",ExpressionUUID->"600ec439-fa95-495a-93dc-a517670293aa"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -4376,9 +3646,9 @@ Cell[BoxData[
     RowBox[{"FindParams", "[", " ", 
      RowBox[{
      "v1_", ",", " ", "p1_", ",", " ", "v2_", ",", " ", "p2_", ",", " ", 
-      RowBox[{"v3_:", " ", "0"}], ",", " ", 
-      RowBox[{"p3_:", "0"}], ",", " ", 
-      RowBox[{"lowhi_:", "\"\<low\>\""}]}], "]"}], ":=", " ", 
+      RowBox[{"v3_", ":", " ", "0"}], ",", " ", 
+      RowBox[{"p3_", ":", "0"}], ",", " ", 
+      RowBox[{"lowhi_", ":", "\"\<low\>\""}]}], "]"}], ":=", " ", 
     RowBox[{"Module", "[", 
      RowBox[{
       RowBox[{"{", 
@@ -4680,9 +3950,9 @@ bb73249f2a8a"]
 },
 WindowSize->{994, 726},
 WindowMargins->{{49, Automatic}, {Automatic, 26}},
-FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, \
-2017)",
-StyleDefinitions->"Default.nb"
+FrontEndVersion->"12.3 for Mac OS X x86 (64-bit) (July 9, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"12a69179-c86f-4a9a-b78b-3b5e52576005"
 ]
 (* End of Notebook Content *)
 
@@ -4695,27 +3965,19 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 112443, 3582, 2610, "Input", "ExpressionUUID" -> \
-"cb4dbbac-d3f2-4460-9082-0462f3173933",
+Cell[558, 20, 91733, 2894, 2608, "Input",ExpressionUUID->"cb4dbbac-d3f2-4460-9082-0462f3173933",
  InitializationCell->True],
 Cell[CellGroupData[{
-Cell[113026, 3606, 340, 7, 43, "Section", "ExpressionUUID" -> \
-"7bce8b32-6779-4548-93cf-c233b68acc2f"],
-Cell[113369, 3615, 2280, 56, 89, "Input", "ExpressionUUID" -> \
-"2cc2951d-cdb6-41f4-993d-a2556ade7d8e"],
+Cell[92316, 2918, 340, 7, 43, "Section",ExpressionUUID->"7bce8b32-6779-4548-93cf-c233b68acc2f"],
+Cell[92659, 2927, 2280, 56, 87, "Input",ExpressionUUID->"2cc2951d-cdb6-41f4-993d-a2556ade7d8e"],
 Cell[CellGroupData[{
-Cell[115674, 3675, 14794, 298, 356, "Input", "ExpressionUUID" -> \
-"907632a9-1376-4bec-9a62-c239d4323d0a"],
-Cell[130471, 3975, 12342, 238, 592, "Output", "ExpressionUUID" -> \
-"8040d2ee-eb44-4f92-a690-53e9e1f03a2f"]
+Cell[94964, 2987, 13583, 282, 346, "Input",ExpressionUUID->"907632a9-1376-4bec-9a62-c239d4323d0a"],
+Cell[108550, 3271, 10901, 212, 598, "Output",ExpressionUUID->"600ec439-fa95-495a-93dc-a517670293aa"]
 }, Open  ]],
-Cell[142828, 4216, 15351, 351, 303, "Input", "ExpressionUUID" -> \
-"542798c0-2ca7-4a8e-8830-4d741ff317aa"],
+Cell[119466, 3486, 15363, 351, 301, "Input",ExpressionUUID->"542798c0-2ca7-4a8e-8830-4d741ff317aa"],
 Cell[CellGroupData[{
-Cell[158204, 4571, 5754, 89, 43, "Input", "ExpressionUUID" -> \
-"28619b8c-2ac5-4a36-9f10-21803c764302"],
-Cell[163961, 4662, 588, 14, 48, "Output", "ExpressionUUID" -> \
-"166ad73c-5b7f-4fc6-81b6-bb73249f2a8a"]
+Cell[134854, 3841, 5754, 89, 43, "Input",ExpressionUUID->"28619b8c-2ac5-4a36-9f10-21803c764302"],
+Cell[140611, 3932, 588, 14, 48, "Output",ExpressionUUID->"166ad73c-5b7f-4fc6-81b6-bb73249f2a8a"]
 }, Open  ]]
 }, Open  ]]
 }
